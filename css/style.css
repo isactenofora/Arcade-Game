@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  color: #0d37d1;
+
+}
+.panel {
+  font-family: 'Coda', cursive;
+  font-weight: 300;
+  color: #0d37d1;
+}
+
+.moves {
+  margin-right: 0.75em;
+}
+.time {
+  margin-right: 0.75em;
+  margin-left: 1em;
+}
+
+.panelCharacters {
+  background-color: #5fa1c1;
+  border: 1px solid #8888bb;
+  border-radius: 7pt;
+  width: 158px;
+  margin-right: 20px;
+  margin-top: 45px;
+
+}
+
+.panelSelect {
+  color: white;
+  font-family: 'Coda', cursive;
+  font-weight: bold;
+  margin: 10px;
+}
+
+a:hover {
+  background-color: #FFB156;
+  border-radius: 20px;
+}
+
+.scorePanel {
+  border: 1px solid #8888bb;
+  border-radius: 7pt;
+  background: #8f8fd1;
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 158px;
+  align-self: stretch;
+}
+
+.rankingTitle {
+  color: white;
+  font-family: 'Coda', cursive;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.topTenRanking
+{
+  display: block;
+  color: #FFDE7D;
+}
+.inputPlayer
+{
+  display: block;
+}
